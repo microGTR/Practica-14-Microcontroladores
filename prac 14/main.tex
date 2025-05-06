@@ -1,0 +1,707 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{color,pxfonts,fix-cm}
+\usepackage{latexsym}
+\usepackage[mathletters]{ucs}
+\DeclareUnicodeCharacter{46}{\textperiodcentered}
+\DeclareUnicodeCharacter{58}{$\colon$}
+\DeclareUnicodeCharacter{60}{\textless}
+\DeclareUnicodeCharacter{62}{\textgreater}
+\DeclareUnicodeCharacter{32}{$\ $}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{pict2e}
+\usepackage{wasysym}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\pagestyle{empty}
+\usepackage[margin=0in,paperwidth=612pt,paperheight=792pt]{geometry}
+\begin{document}
+\definecolor{color_29791}{rgb}{0,0,0}
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(208.13,-71.14001){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                                                                  }
+\put(208.13,-93.70001){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(208.13,-116.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(243.53,-138.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(243.53,-161.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(105.5,-183.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(105.5,-206.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(105.5,-228.61){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(105.5,-251.17){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(105.26,-282.01){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Nombre de la práctica: PRÁCTICA 14: Sistema de cruce peatonal  }
+\put(227.81,-300.61){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Gustavo Tello Rangel. }
+\put(217.01,-319.09){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Clave del alumno: 325454 }
+\put(259.13,-337.57){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}05/05/2025 }
+\put(145.58,-356.05){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Nombre del docente: Ing. Luis Jesús Padrón Padrón }
+\put(291.05,-388.59){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-421.11){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-453.63){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-486.15){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-518.67){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-551.22){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-583.74){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-616.26){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-648.78){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(291.05,-681.3){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.05,-157.85){\includegraphics[width=128.25pt,height=97pt]{latexImage_52083a25516112db65dc65d64e0e9679.png}}
+\put(427.45,-165.4001){\includegraphics[width=84.49999pt,height=104.55pt]{latexImage_533c987337b63b5cbcb00d5f63e8de03.png}}
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-71.97998){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Introducción }
+\put(70.104,-85.53998){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}El sistema plantea una manera de elaborar un semáforo de doble vía, un elemento }
+\put(70.104,-99.34003){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ampliamente utilizado en los sistemas de vialidad. }
+\put(70.104,-127.42){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Desarrollo }
+\put(70.104,-140.98){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Lo principal dentro de la planeación fue escoger la manera de mostrar los símbolos }
+\put(70.104,-154.78){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}peatonales. Al final, me decanté por usar una matriz de LEDs de 8x8. }
+\put(70.104,-168.58){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A partir de ahí, simplemente utilicé LEDs para representar los semáforos vehiculares, así }
+\put(70.104,-182.38){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}como una plataforma de papel cascarón, además de alambre y soldadura. }
+\put(70.104,-210.46){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Main.c }
+\put(70.104,-238.69){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include "pico/stdlib.h" }
+\put(70.104,-260.05){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include "hardware/gpio.h" }
+\put(70.104,-281.53){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include "hardware/timer.h" }
+\put(70.104,-303.01){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include "max7219.h" }
+\put(70.104,-324.37){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include <stdbool.h> }
+\put(70.104,-345.85){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include <string.h> }
+\put(70.104,-367.33){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-388.83){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}// Definición de pines }
+\put(70.104,-410.19){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define SEM1\_RED 2 }
+\put(70.104,-431.67){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define SEM1\_YELLOW 3 }
+\put(70.104,-453.15){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define SEM1\_GREEN 4 }
+\put(70.104,-474.63){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define SEM2\_RED 5 }
+\put(70.104,-495.99){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define SEM2\_YELLOW 6 }
+\put(70.104,-517.47){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define SEM2\_GREEN 7 }
+\put(70.104,-538.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define BTN\_PEATONAL1 8 }
+\put(70.104,-560.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define BTN\_PEATONAL2 9 }
+\put(70.104,-581.82){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define DIN1 10 }
+\put(70.104,-603.3){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define CS1 11 }
+\put(70.104,-624.78){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define CLK1 12 }
+\put(70.104,-646.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define DIN2 13 }
+\put(70.104,-667.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define CS2 14 }
+\put(70.104,-689.096){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define CLK2 15 }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}// Tiempos en milisegundos }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define VEHICLE\_GREEN\_TIME   7000   // 7 segundos (modificado de }
+\put(70.104,-126.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}10 a 7) }
+\put(70.104,-148.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define YELLOW\_TIME          3000   // 3 segundos }
+\put(70.104,-169.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define PEDESTRIAN\_GREEN     10000  // 10 segundos }
+\put(70.104,-191.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define BLINK\_INTERVAL       500    // 500 ms }
+\put(70.104,-212.5){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define BUTTON\_CHECK\_INTERVAL 10    // 10 ms }
+\put(70.104,-234.01){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define COUNT\_UPDATE\_INTERVAL 1000  // 1 segundo para actualizar }
+\put(70.104,-247.45){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}contador }
+\put(70.104,-268.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-290.29){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}typedef enum \{ VERDE, AMARILLO, ROJO \} semaforo\_estado; }
+\put(70.104,-311.77){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-333.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}// Variables de estado }
+\put(70.104,-354.61){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}volatile bool btn1\_pressed = false; }
+\put(70.104,-376.09){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}volatile bool btn2\_pressed = false; }
+\put(70.104,-397.59){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}int tiempo\_restante = 7;  // Inicialmente 7 segundos (verde) }
+\put(70.104,-418.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}semaforo\_estado estado\_actual = VERDE; }
+\put(70.104,-440.43){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bool semaforo1\_activo = true; }
+\put(70.104,-461.91){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bool paso\_peatonal1 = false; }
+\put(70.104,-483.39){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bool paso\_peatonal2 = false; }
+\put(70.104,-504.75){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bool mostrando\_tiempo\_matriz1 = false;  // Indica si la matriz 1 }
+\put(70.104,-518.19){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}está mostrando tiempo }
+\put(70.104,-539.67){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bool mostrando\_tiempo\_matriz2 = false;  // Indica si la matriz 2 }
+\put(70.104,-553.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}está mostrando tiempo }
+\put(70.104,-574.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}absolute\_time\_t tiempo\_actualizacion\_contador; }
+\put(70.104,-596.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-617.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}// Variables para control peatonal }
+\put(70.104,-638.94){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}volatile bool ped1\_request = false; }
+\put(70.104,-660.42){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}volatile bool ped2\_request = false; }
+\put(70.104,-681.9){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}absolute\_time\_t pedestrian\_start\_time; }
+\put(70.104,-703.28){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bool pedestrian\_blink\_state = false; }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}// Prototipos de funciones }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void btn1\_isr(uint gpio, uint32\_t events); }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void btn2\_isr(uint gpio, uint32\_t events); }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void init\_gpio(); }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void semaforo\_vehicular(semaforo\_estado estado, bool semaforo1); }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void mostrar\_matriz(uint8\_t *patron, bool matriz1); }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void mostrar\_numero(int numero, bool matriz1); }
+\put(70.104,-241.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void actualizar\_peatonales(); }
+\put(70.104,-263.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void iniciar\_cuenta\_regresiva(bool matriz1);  // Corrección: }
+\put(70.104,-276.85){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}añadido parámetro bool matriz1 }
+\put(70.104,-298.33){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void pedestrian\_green\_phase(bool is\_ped1); }
+\put(70.104,-319.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void actualizar\_cuenta\_regresiva(); }
+\put(70.104,-341.17){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-362.65){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}// Patrones para la matriz }
+\put(70.104,-384.15){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}uint8\_t circulo[8] = \{ }
+\put(70.104,-405.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00111100, }
+\put(70.104,-426.99){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b01111110, }
+\put(70.104,-448.47){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b11111111, }
+\put(70.104,-469.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b11111111, }
+\put(70.104,-491.31){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b11111111, }
+\put(70.104,-512.79){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b11111111, }
+\put(70.104,-534.27){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b01111110, }
+\put(70.104,-555.78){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00111100 }
+\put(70.104,-577.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\}; }
+\put(70.104,-598.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-620.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}uint8\_t flecha\_der[8] = \{ }
+\put(70.104,-641.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00011000, }
+\put(70.104,-662.94){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00011000, }
+\put(70.104,-684.416){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b01111110, }
+\put(70.104,-705.92){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00111100, }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00011000, }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00000000, }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00000000, }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00000000 }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\}; }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}uint8\_t flecha\_izq[8] = \{ }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00011000, }
+\put(70.104,-241.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00011000, }
+\put(70.104,-263.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00111100, }
+\put(70.104,-284.89){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b01111110, }
+\put(70.104,-306.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00011000, }
+\put(70.104,-327.73){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00000000, }
+\put(70.104,-349.21){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00000000, }
+\put(70.104,-370.69){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    0b00000000 }
+\put(70.104,-392.07){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\}; }
+\put(70.104,-413.55){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-435.03){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}uint8\_t numeros[10][8] = \{ }
+\put(70.104,-456.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x3C, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x3C\}, // 0 }
+\put(70.104,-477.87){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x08, 0x18, 0x28, 0x08, 0x08, 0x08, 0x08, 0x3E\}, // 1 }
+\put(70.104,-499.35){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x3C, 0x42, 0x02, 0x04, 0x18, 0x20, 0x40, 0x7E\}, // 2 }
+\put(70.104,-520.83){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x3C, 0x42, 0x02, 0x1C, 0x02, 0x02, 0x42, 0x3C\}, // 3 }
+\put(70.104,-542.22){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x04, 0x0C, 0x14, 0x24, 0x44, 0x7E, 0x04, 0x04\}, // 4 }
+\put(70.104,-563.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x7E, 0x40, 0x40, 0x7C, 0x02, 0x02, 0x42, 0x3C\}, // 5 }
+\put(70.104,-585.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x3C, 0x42, 0x40, 0x7C, 0x42, 0x42, 0x42, 0x3C\}, // 6 }
+\put(70.104,-606.66){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x7E, 0x02, 0x04, 0x08, 0x10, 0x10, 0x10, 0x10\}, // 7 }
+\put(70.104,-628.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x3C, 0x42, 0x42, 0x3C, 0x42, 0x42, 0x42, 0x3C\}, // 8 }
+\put(70.104,-649.5){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \{0x3C, 0x42, 0x42, 0x42, 0x3E, 0x02, 0x42, 0x3C\}  // 9 }
+\put(70.104,-670.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\}; }
+\put(70.104,-692.456){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void init\_gpio() \{ }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Configurar semáforos vehiculares }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    for(int i = 2; i <= 7; i++) \{ }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        gpio\_init(i); }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        gpio\_set\_dir(i, GPIO\_OUT); }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Configurar botones }
+\put(70.104,-241.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_init(BTN\_PEATONAL1); }
+\put(70.104,-263.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_init(BTN\_PEATONAL2); }
+\put(70.104,-284.89){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_set\_dir(BTN\_PEATONAL1, GPIO\_IN); }
+\put(70.104,-306.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_set\_dir(BTN\_PEATONAL2, GPIO\_IN); }
+\put(70.104,-327.73){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_pull\_up(BTN\_PEATONAL1); }
+\put(70.104,-349.21){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_pull\_up(BTN\_PEATONAL2); }
+\put(70.104,-370.69){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-392.07){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Configurar interrupciones }
+\put(70.104,-413.55){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_set\_irq\_enabled\_with\_callback(BTN\_PEATONAL1, }
+\put(70.104,-426.99){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}GPIO\_IRQ\_EDGE\_FALL, true, \&btn1\_isr); }
+\put(70.104,-448.47){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_set\_irq\_enabled\_with\_callback(BTN\_PEATONAL2, }
+\put(70.104,-461.91){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}GPIO\_IRQ\_EDGE\_FALL, true, \&btn2\_isr); }
+\put(70.104,-483.39){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-504.75){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-526.23){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void check\_pedestrian\_buttons() \{ }
+\put(70.104,-547.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if (!gpio\_get(BTN\_PEATONAL1)) ped1\_request = true; }
+\put(70.104,-569.22){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if (!gpio\_get(BTN\_PEATONAL2)) ped2\_request = true; }
+\put(70.104,-590.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-612.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-633.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void semaforo\_vehicular(semaforo\_estado estado, bool semaforo1) \{ }
+\put(70.104,-655.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Apagar todos los LEDs }
+\put(70.104,-676.38){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    for(int i = 2; i <= 7; i++) gpio\_put(i, 0); }
+\put(70.104,-697.856){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if(semaforo1) \{ }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        switch(estado) \{ }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            case VERDE: }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM1\_GREEN, 1); }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM2\_RED, 1); }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                break; }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            case AMARILLO: }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM1\_YELLOW, 1); }
+\put(70.104,-241.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM2\_RED, 1); }
+\put(70.104,-263.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                break; }
+\put(70.104,-284.89){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            case ROJO: }
+\put(70.104,-306.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM1\_RED, 1); }
+\put(70.104,-327.73){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM2\_GREEN, 1); }
+\put(70.104,-349.21){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                break; }
+\put(70.104,-370.69){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-392.07){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} else \{ }
+\put(70.104,-413.55){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        switch(estado) \{ }
+\put(70.104,-435.03){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            case VERDE: }
+\put(70.104,-456.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM2\_GREEN, 1); }
+\put(70.104,-477.87){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM1\_RED, 1); }
+\put(70.104,-499.35){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                break; }
+\put(70.104,-520.83){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            case AMARILLO: }
+\put(70.104,-542.22){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM2\_YELLOW, 1); }
+\put(70.104,-563.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM1\_RED, 1); }
+\put(70.104,-585.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                break; }
+\put(70.104,-606.66){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            case ROJO: }
+\put(70.104,-628.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM2\_RED, 1); }
+\put(70.104,-649.5){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                gpio\_put(SEM1\_GREEN, 1); }
+\put(70.104,-670.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                break; }
+\put(70.104,-692.456){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void mostrar\_matriz(uint8\_t *patron, bool matriz1) \{ }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_display(matriz1 ? CLK1 : CLK2,  }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                   matriz1 ? DIN1 : DIN2,  }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                   matriz1 ? CS1 : CS2,  }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                   patron); }
+\put(70.104,-241.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-263.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-284.89){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void mostrar\_numero(int numero, bool matriz1) \{ }
+\put(70.104,-306.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if(numero < 0 || numero > 9) return; }
+\put(70.104,-327.73){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    mostrar\_matriz(numeros[numero], matriz1); }
+\put(70.104,-349.21){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-370.69){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-392.07){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void iniciar\_cuenta\_regresiva(bool matriz1) \{  // Corrección: }
+\put(70.104,-405.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}definición con parámetro bool matriz1 }
+\put(70.104,-426.99){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Iniciar la cuenta regresiva solo en la matriz }
+\put(70.104,-440.43){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}correspondiente }
+\put(70.104,-461.91){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if (matriz1) \{ }
+\put(70.104,-483.39){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrando\_tiempo\_matriz1 = true; }
+\put(70.104,-504.75){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrar\_numero(tiempo\_restante, true); }
+\put(70.104,-526.23){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} else \{ }
+\put(70.104,-547.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrando\_tiempo\_matriz2 = true; }
+\put(70.104,-569.22){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrar\_numero(tiempo\_restante, false); }
+\put(70.104,-590.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-612.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-633.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    tiempo\_actualizacion\_contador = }
+\put(70.104,-646.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}make\_timeout\_time\_ms(COUNT\_UPDATE\_INTERVAL); // Actualizar cada }
+\put(70.104,-660.42){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}segundo }
+\put(70.104,-681.9){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-703.28){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void actualizar\_cuenta\_regresiva() \{ }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Verificar si es tiempo de actualizar el contador }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if (time\_reached(tiempo\_actualizacion\_contador)) \{ }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        tiempo\_actualizacion\_contador = }
+\put(70.104,-148.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}make\_timeout\_time\_ms(COUNT\_UPDATE\_INTERVAL); }
+\put(70.104,-169.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}         }
+\put(70.104,-191.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        // Mostrar el tiempo restante actualizado solo en las }
+\put(70.104,-204.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}matrices que están mostrando tiempo }
+\put(70.104,-225.97){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if (mostrando\_tiempo\_matriz1) \{ }
+\put(70.104,-247.45){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            mostrar\_numero(tiempo\_restante, true); }
+\put(70.104,-268.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-290.29){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if (mostrando\_tiempo\_matriz2) \{ }
+\put(70.104,-311.77){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            mostrar\_numero(tiempo\_restante, false); }
+\put(70.104,-333.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-354.61){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-376.09){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-397.59){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // La cuenta regresiva continúa hasta que termine el ciclo }
+\put(70.104,-411.03){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}completo }
+\put(70.104,-432.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Si el tiempo llega a cero, resetear las matrices }
+\put(70.104,-445.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}correspondientes }
+\put(70.104,-467.31){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if (tiempo\_restante <= 0) \{ }
+\put(70.104,-488.79){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if (mostrando\_tiempo\_matriz1) \{ }
+\put(70.104,-510.27){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            mostrando\_tiempo\_matriz1 = false; }
+\put(70.104,-531.75){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            mostrar\_matriz(circulo, true); }
+\put(70.104,-553.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-574.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if (mostrando\_tiempo\_matriz2) \{ }
+\put(70.104,-596.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            mostrando\_tiempo\_matriz2 = false; }
+\put(70.104,-617.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            mostrar\_matriz(circulo, false); }
+\put(70.104,-638.94){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-660.42){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-681.9){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-703.28){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void pedestrian\_green\_phase(bool is\_ped1) \{ }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    absolute\_time\_t start\_time = get\_absolute\_time(); }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    absolute\_time\_t blink\_time = }
+\put(70.104,-126.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}make\_timeout\_time\_ms(BLINK\_INTERVAL); }
+\put(70.104,-148.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    pedestrian\_blink\_state = true; }
+\put(70.104,-169.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-191.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Mostrar flecha estática durante toda la fase de paso }
+\put(70.104,-204.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}peatonal }
+\put(70.104,-225.97){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if(is\_ped1) \{ }
+\put(70.104,-247.45){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrar\_matriz(flecha\_izq, true); }
+\put(70.104,-268.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrar\_matriz(circulo, false); }
+\put(70.104,-290.29){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} else \{ }
+\put(70.104,-311.77){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrar\_matriz(flecha\_der, false); }
+\put(70.104,-333.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrar\_matriz(circulo, true); }
+\put(70.104,-354.61){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-376.09){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-397.59){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    int tiempo\_peatonal = PEDESTRIAN\_GREEN / 1000; }
+\put(70.104,-418.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    absolute\_time\_t tiempo\_actualizacion = }
+\put(70.104,-432.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}make\_timeout\_time\_ms(COUNT\_UPDATE\_INTERVAL); }
+\put(70.104,-453.87){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-475.35){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    while(absolute\_time\_diff\_us(start\_time, get\_absolute\_time()) < }
+\put(70.104,-488.79){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}PEDESTRIAN\_GREEN * 1000) \{ }
+\put(70.104,-510.27){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        check\_pedestrian\_buttons(); }
+\put(70.104,-531.75){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}         }
+\put(70.104,-553.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        // Actualizar la cuenta regresiva para la otra matriz (la }
+\put(70.104,-566.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}que no muestra la flecha) }
+\put(70.104,-588.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if (time\_reached(tiempo\_actualizacion)) \{ }
+\put(70.104,-609.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            tiempo\_actualizacion = }
+\put(70.104,-622.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}make\_timeout\_time\_ms(COUNT\_UPDATE\_INTERVAL); }
+\put(70.104,-644.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            tiempo\_peatonal--; }
+\put(70.104,-665.82){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}             }
+\put(70.104,-687.296){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            // Solo mostrar tiempo en la matriz que no tiene la }
+\put(70.104,-700.736){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}flecha }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            if (is\_ped1) \{ }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                mostrar\_numero(tiempo\_peatonal > 0 ? }
+\put(70.104,-105.22){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}tiempo\_peatonal : 0, false); }
+\put(70.104,-126.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            \} else \{ }
+\put(70.104,-148.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                mostrar\_numero(tiempo\_peatonal > 0 ? }
+\put(70.104,-161.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}tiempo\_peatonal : 0, true); }
+\put(70.104,-182.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            \} }
+\put(70.104,-204.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-225.97){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}         }
+\put(70.104,-247.45){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        // Parpadeo de la flecha después de la mitad del tiempo }
+\put(70.104,-268.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if(absolute\_time\_diff\_us(start\_time, get\_absolute\_time()) }
+\put(70.104,-282.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}> (PEDESTRIAN\_GREEN/2) * 1000) \{ }
+\put(70.104,-303.73){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            if(time\_reached(blink\_time)) \{ }
+\put(70.104,-325.21){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                pedestrian\_blink\_state = !pedestrian\_blink\_state; }
+\put(70.104,-346.69){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                blink\_time = make\_timeout\_time\_ms(BLINK\_INTERVAL); }
+\put(70.104,-368.05){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                 }
+\put(70.104,-389.55){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                if(is\_ped1) \{ }
+\put(70.104,-411.03){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    if(pedestrian\_blink\_state) \{ }
+\put(70.104,-432.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        mostrar\_matriz(flecha\_izq, true); }
+\put(70.104,-453.87){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    \} else \{ }
+\put(70.104,-475.35){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        mostrar\_matriz(circulo, true); }
+\put(70.104,-496.83){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    \} }
+\put(70.104,-518.19){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                \} else \{ }
+\put(70.104,-539.67){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    if(pedestrian\_blink\_state) \{ }
+\put(70.104,-561.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        mostrar\_matriz(flecha\_der, false); }
+\put(70.104,-582.66){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    \} else \{ }
+\put(70.104,-604.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        mostrar\_matriz(circulo, false); }
+\put(70.104,-625.5){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    \} }
+\put(70.104,-646.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                \} }
+\put(70.104,-668.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            \} }
+\put(70.104,-689.816){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}         }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        sleep\_ms(BUTTON\_CHECK\_INTERVAL); }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Restablecer }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if(is\_ped1) \{ }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        ped1\_request = false; }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrar\_matriz(circulo, true); }
+\put(70.104,-241.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} else \{ }
+\put(70.104,-263.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        ped2\_request = false; }
+\put(70.104,-284.89){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        mostrar\_matriz(circulo, false); }
+\put(70.104,-306.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-327.73){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-349.21){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-370.69){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void actualizar\_peatonales() \{ }
+\put(70.104,-392.07){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Primero actualizar las cuentas regresivas si están activas }
+\put(70.104,-413.55){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    actualizar\_cuenta\_regresiva(); }
+\put(70.104,-435.03){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-456.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Para la matriz 1, si no está mostrando tiempo, mostrar el }
+\put(70.104,-469.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}patrón normal o procesar solicitud }
+\put(70.104,-491.31){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if (!mostrando\_tiempo\_matriz1) \{ }
+\put(70.104,-512.79){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if (!ped1\_request) \{ }
+\put(70.104,-534.27){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            mostrar\_matriz(circulo, true); }
+\put(70.104,-555.78){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} else if (!semaforo1\_activo \&\& estado\_actual == VERDE) \{ }
+\put(70.104,-577.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            pedestrian\_green\_phase(true); }
+\put(70.104,-598.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-620.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-641.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-662.94){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Para la matriz 2, si no está mostrando tiempo, mostrar el }
+\put(70.104,-676.38){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}patrón normal o procesar solicitud }
+\put(70.104,-697.856){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if (!mostrando\_tiempo\_matriz2) \{ }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if (!ped2\_request) \{ }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            mostrar\_matriz(circulo, false); }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} else if (semaforo1\_activo \&\& estado\_actual == VERDE) \{ }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            pedestrian\_green\_phase(false); }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-241.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}// Implementación de las ISRs }
+\put(70.104,-263.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void btn1\_isr(uint gpio, uint32\_t events) \{ }
+\put(70.104,-284.89){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    ped1\_request = true; }
+\put(70.104,-306.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    iniciar\_cuenta\_regresiva(true); // Iniciar animación con }
+\put(70.104,-319.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cuenta regresiva solo en matriz 1 }
+\put(70.104,-341.17){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-362.65){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-384.15){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void btn2\_isr(uint gpio, uint32\_t events) \{ }
+\put(70.104,-405.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    ped2\_request = true; }
+\put(70.104,-426.99){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    iniciar\_cuenta\_regresiva(false); // Iniciar animación con }
+\put(70.104,-440.43){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cuenta regresiva solo en matriz 2 }
+\put(70.104,-461.91){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-483.39){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-504.75){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}int main() \{ }
+\put(70.104,-526.23){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    stdio\_init\_all(); }
+\put(70.104,-547.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    init\_gpio(); }
+\put(70.104,-569.22){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-590.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Inicializar matrices LED }
+\put(70.104,-612.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_init(CLK1, DIN1, CS1); }
+\put(70.104,-633.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_init(CLK2, DIN2, CS2); }
+\put(70.104,-655.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_brightness(CLK1, DIN1, CS1, 5); }
+\put(70.104,-676.38){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_brightness(CLK2, DIN2, CS2, 5); }
+\put(70.104,-697.856){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    absolute\_time\_t next\_update = make\_timeout\_time\_ms(1000); }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    while(1) \{ }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        check\_pedestrian\_buttons(); }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}         }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        if(time\_reached(next\_update)) \{ }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            next\_update = make\_timeout\_time\_ms(1000); }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}             }
+\put(70.104,-241.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            tiempo\_restante--; }
+\put(70.104,-263.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}             }
+\put(70.104,-284.89){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            // Guardar el estado anterior para saber si cambiamos }
+\put(70.104,-298.33){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}de fase }
+\put(70.104,-319.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            semaforo\_estado estado\_anterior = estado\_actual; }
+\put(70.104,-341.17){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            bool cambio\_de\_estado = false; }
+\put(70.104,-362.65){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}             }
+\put(70.104,-384.15){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            if(tiempo\_restante <= 0) \{ }
+\put(70.104,-405.51){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                cambio\_de\_estado = true; }
+\put(70.104,-426.99){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                switch(estado\_actual) \{ }
+\put(70.104,-448.47){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    case VERDE: }
+\put(70.104,-469.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        estado\_actual = AMARILLO; }
+\put(70.104,-491.31){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        tiempo\_restante = YELLOW\_TIME/1000; }
+\put(70.104,-512.79){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        break; }
+\put(70.104,-534.27){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    case AMARILLO: }
+\put(70.104,-555.78){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        estado\_actual = ROJO; }
+\put(70.104,-577.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        semaforo1\_activo = !semaforo1\_activo; }
+\put(70.104,-598.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        tiempo\_restante = VEHICLE\_GREEN\_TIME/1000; }
+\put(70.104,-620.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        estado\_actual = VERDE; }
+\put(70.104,-641.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        break; }
+\put(70.104,-662.94){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    case ROJO: }
+\put(70.104,-684.416){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        // No debería llegar aquí con la lógica }
+\put(70.104,-697.856){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}actual }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                        break; }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                \} }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            \} }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}             }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            semaforo\_vehicular(estado\_actual, semaforo1\_activo); }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}             }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            // Actualizar matrices si están en modo cuenta }
+\put(70.104,-212.5){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}regresiva }
+\put(70.104,-234.01){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            if (mostrando\_tiempo\_matriz1 || }
+\put(70.104,-247.45){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mostrando\_tiempo\_matriz2) \{ }
+\put(70.104,-268.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                actualizar\_cuenta\_regresiva(); }
+\put(70.104,-290.29){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                 }
+\put(70.104,-311.77){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                // Comprobar si hay un cambio de semáforo activo }
+\put(70.104,-333.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                if (cambio\_de\_estado \&\& estado\_anterior == }
+\put(70.104,-346.69){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}AMARILLO \&\& estado\_actual == VERDE) \{ }
+\put(70.104,-368.05){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    // Solo terminamos la cuenta regresiva cuando }
+\put(70.104,-381.49){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}pasamos de amarillo a verde }
+\put(70.104,-402.99){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    // y cambia el semáforo activo }
+\put(70.104,-424.47){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    mostrando\_tiempo\_matriz1 = false; }
+\put(70.104,-445.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    mostrando\_tiempo\_matriz2 = false; }
+\put(70.104,-467.31){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    mostrar\_matriz(circulo, true); }
+\put(70.104,-488.79){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                    mostrar\_matriz(circulo, false); }
+\put(70.104,-510.27){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}                \} }
+\put(70.104,-531.75){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}            \} }
+\put(70.104,-553.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        \} }
+\put(70.104,-574.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}         }
+\put(70.104,-596.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        actualizar\_peatonales(); }
+\put(70.104,-617.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        sleep\_ms(10); // Pequeña pausa para no saturar el CPU }
+\put(70.104,-638.94){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-660.42){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-681.9){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    return 0; }
+\put(70.104,-703.28){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-71.97998){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}CmakeLists.txt }
+\put(70.104,-100.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cmake\_minimum\_required(VERSION 3.12) }
+\put(70.104,-121.66){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-143.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}include(\$ENV\{PICO\_SDK\_PATH\}/external/pico\_sdk\_import.cmake) }
+\put(70.104,-164.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-185.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}project(semaforo\_doble C CXX ASM) }
+\put(70.104,-207.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-228.97){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}set(CMAKE\_C\_STANDARD 11) }
+\put(70.104,-250.33){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}set(CMAKE\_CXX\_STANDARD 17) }
+\put(70.104,-271.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-293.29){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}pico\_sdk\_init() }
+\put(70.104,-314.77){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-336.13){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}add\_executable(semaforo\_doble }
+\put(70.104,-357.61){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    main.c }
+\put(70.104,-379.09){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219.c }
+\put(70.104,-400.59){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}) }
+\put(70.104,-421.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-443.43){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}target\_include\_directories(semaforo\_doble PRIVATE }
+\put(70.104,-456.87){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\$\{CMAKE\_CURRENT\_LIST\_DIR\}) }
+\put(70.104,-478.35){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-499.83){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}pico\_enable\_stdio\_usb(semaforo\_doble 1) }
+\put(70.104,-521.19){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}pico\_enable\_stdio\_uart(semaforo\_doble 0) }
+\put(70.104,-542.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-564.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}pico\_add\_extra\_outputs(semaforo\_doble) }
+\put(70.104,-585.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-607.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}target\_link\_libraries(semaforo\_doble }
+\put(70.104,-628.5){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    pico\_stdlib }
+\put(70.104,-649.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    hardware\_gpio }
+\put(70.104,-671.34){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    hardware\_spi }
+\put(70.104,-692.816){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    hardware\_timer }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}) }
+\put(70.104,-99.46002){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Max7219.c }
+\put(70.104,-127.66){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include "max7219.h" }
+\put(70.104,-149.14){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include "hardware/spi.h" }
+\put(70.104,-170.62){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include "pico/stdlib.h" }
+\put(70.104,-191.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-213.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void max7219\_send(uint clk\_pin, uint din\_pin, uint cs\_pin, uint8\_t }
+\put(70.104,-226.93){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}reg, uint8\_t data) \{ }
+\put(70.104,-248.41){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_put(cs\_pin, 0); }
+\put(70.104,-269.77){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-291.25){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    for (int i = 7; i >= 0; i--) \{ }
+\put(70.104,-312.73){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        gpio\_put(clk\_pin, 0); }
+\put(70.104,-334.21){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        gpio\_put(din\_pin, (reg >> i) \& 1); }
+\put(70.104,-355.57){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        gpio\_put(clk\_pin, 1); }
+\put(70.104,-377.05){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-398.55){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-420.03){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    for (int i = 7; i >= 0; i--) \{ }
+\put(70.104,-441.39){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        gpio\_put(clk\_pin, 0); }
+\put(70.104,-462.87){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        gpio\_put(din\_pin, (data >> i) \& 1); }
+\put(70.104,-484.35){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        gpio\_put(clk\_pin, 1); }
+\put(70.104,-505.83){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-527.19){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-548.7){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_put(cs\_pin, 1); }
+\put(70.104,-570.18){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-591.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-613.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void max7219\_init(uint clk\_pin, uint din\_pin, uint cs\_pin) \{ }
+\put(70.104,-634.5){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_init(clk\_pin); }
+\put(70.104,-655.98){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_init(din\_pin); }
+\put(70.104,-677.34){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_init(cs\_pin); }
+\put(70.104,-698.816){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_set\_dir(clk\_pin, GPIO\_OUT); }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_set\_dir(din\_pin, GPIO\_OUT); }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_set\_dir(cs\_pin, GPIO\_OUT); }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    gpio\_put(cs\_pin, 1); }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}     }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    // Configuración del MAX7219 }
+\put(70.104,-220.54){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_send(clk\_pin, din\_pin, cs\_pin, 0x09, 0x00); // Decode }
+\put(70.104,-234.01){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mode: no decode }
+\put(70.104,-255.37){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_send(clk\_pin, din\_pin, cs\_pin, 0x0A, 0x01); // }
+\put(70.104,-268.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Intensity: medium }
+\put(70.104,-290.29){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_send(clk\_pin, din\_pin, cs\_pin, 0x0B, 0x07); // Scan }
+\put(70.104,-303.73){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}limit: all digits }
+\put(70.104,-325.21){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_send(clk\_pin, din\_pin, cs\_pin, 0x0C, 0x01); // }
+\put(70.104,-338.65){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Shutdown: normal operation }
+\put(70.104,-360.13){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_send(clk\_pin, din\_pin, cs\_pin, 0x0F, 0x00); // Display }
+\put(70.104,-373.57){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}test: off }
+\put(70.104,-394.95){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-416.43){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-437.91){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void max7219\_display(uint clk\_pin, uint din\_pin, uint cs\_pin, }
+\put(70.104,-451.35){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}uint8\_t *buffer) \{ }
+\put(70.104,-472.83){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    for (uint8\_t i = 0; i < 8; i++) \{ }
+\put(70.104,-494.19){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}        max7219\_send(clk\_pin, din\_pin, cs\_pin, i + 1, buffer[i]); }
+\put(70.104,-515.67){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    \} }
+\put(70.104,-537.15){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-558.66){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-580.02){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void max7219\_brightness(uint clk\_pin, uint din\_pin, uint cs\_pin, }
+\put(70.104,-593.46){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}uint8\_t brightness) \{ }
+\put(70.104,-614.94){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    if (brightness > 15) brightness = 15; }
+\put(70.104,-636.42){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}    max7219\_send(clk\_pin, din\_pin, cs\_pin, 0x0A, brightness); }
+\put(70.104,-657.9){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\} }
+\put(70.104,-686.936){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Max7219.h }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(70.104,-70.29999){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#ifndef MAX7219\_H }
+\put(70.104,-91.78003){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#define MAX7219\_H }
+\put(70.104,-113.26){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-134.74){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#include "pico/stdlib.h" }
+\put(70.104,-156.1){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-177.58){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void max7219\_init(uint clk\_pin, uint din\_pin, uint cs\_pin); }
+\put(70.104,-199.06){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void max7219\_display(uint clk\_pin, uint din\_pin, uint cs\_pin, }
+\put(70.104,-212.5){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}uint8\_t *buffer); }
+\put(70.104,-234.01){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}void max7219\_brightness(uint clk\_pin, uint din\_pin, uint cs\_pin, }
+\put(70.104,-247.45){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}uint8\_t brightness); }
+\put(70.104,-268.81){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-290.29){\fontsize{11.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\#endif }
+\put(70.104,-321.13){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-351.13){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-381.01){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} Semáforo Vehicular 1 (con LEDs individuales) }
+\put(81.864,-411.63){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Función Pin GPIO Pico Descripción }
+\put(72.384,-428.19){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Luz roja GPIO 2 LED rojo semáforo 1 }
+\put(72.384,-444.99){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Luz amarilla GPIO 3 LED amarillo semáforo 1 }
+\put(72.384,-461.79){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Luz verde GPIO 4 LED verde semáforo 1 }
+\put(70.104,-493.59){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} Semáforo Vehicular 2 }
+\put(81.864,-524.19){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Función Pin GPIO Pico Descripción }
+\put(72.384,-540.75){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Luz roja GPIO 5 LED rojo semáforo 2 }
+\put(72.384,-557.58){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Luz amarilla GPIO 6 LED amarillo semáforo 2 }
+\put(72.384,-574.38){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Luz verde GPIO 7 LED verde semáforo 2 }
+\put(70.104,-606.3){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} Botones Peatonales }
+\put(74.544,-636.9){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Botón Peatonal Pin GPIO Pico Descripción }
+\put(72.384,-653.46){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Botón Peatonal 1 GPIO 8 Solicita cruce peatonal matriz 1 }
+\put(72.384,-670.26){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Botón Peatonal 2 GPIO 9 Solicita cruce peatonal matriz 2 }
+\put(70.104,-700.736){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} Matriz 1 (lado izquierdo o para peatonal 1) }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]\path(0pt,0pt);\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(72.384,-74.26001){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Señal MAX7219 Pin GPIO Pico }
+\put(72.384,-90.82001){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}DIN (Data In) GPIO 10 }
+\put(72.384,-107.62){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}CS (Chip Select) GPIO 11 }
+\put(72.384,-124.42){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}CLK (Clock) GPIO 12 }
+\put(70.104,-154.66){\fontsize{12}{1}\usefont{T1}{cmr}{b}{n}\selectfont\color{color_29791} Matriz 2 (lado derecho o para peatonal 2) }
+\put(72.384,-184.78){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Señal MAX7219 Pin GPIO Pico }
+\put(72.384,-201.34){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}DIN (Data In) GPIO 13 }
+\put(72.384,-218.14){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}CS (Chip Select) GPIO 14 }
+\put(72.384,-234.97){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}CLK (Clock) GPIO 15 }
+\put(70.104,-266.89){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-299.29){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-331.81){\fontsize{14.04}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(70.104,-362.77){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Conclusión }
+\put(70.104,-377.41){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Tuve dificultades para hacer funcionar adecuadamente los botones. Al presionar cualquier }
+\put(70.104,-392.31){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}botón, debería mostrarse una cuenta regresiva del tiempo restante para que el semáforo }
+\put(70.104,-407.19){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}peatonal cambie a rojo, pero actualmente solo se muestra en una sola matriz. }
+\put(70.104,-422.19){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Esperaba que fuera más fácil, aunque quizá debí haber utilizado pantallas OLED debido a }
+\put(70.104,-437.07){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}la gran cantidad de librerías y tutoriales disponibles, en comparación con las matrices de }
+\put(70.104,-451.95){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}LEDs. }
+\put(70.104,-466.83){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}También considero que el aspecto estético del proyecto podría mejorarse. En otras }
+\put(70.104,-481.71){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ocasiones he logrado trabajos visualmente más atractivos; en esta ocasión, la disposición de }
+\put(70.104,-496.59){\fontsize{12}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}los cables no me terminó de convencer. }
+\end{picture}
+\end{document}
